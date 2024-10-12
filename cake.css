@@ -1,0 +1,54 @@
+
+.menu{
+    width:30px;
+}
+.search{
+    width:30px;
+}
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.cakes{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 30px;
+    
+}
+.cake1{
+    border-style: outset;
+}
+.flavours{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.choco{
+    border-style: outset;
+}
+.dessert{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.donut{
+    border-style: outset;
+}
+
+.find{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: space-between;
+   
+}
+.decor{
+    border-style:ridge;
+    
+}
+
+a{
+    text-decoration: none;
+}
+  
